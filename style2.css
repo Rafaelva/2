@@ -1,0 +1,88 @@
+body {
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+}
+.column {
+    background-color: #505050;
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #363636 ;
+    margin: 0px;
+    margin-right: 40px;
+    
+
+}
+
+.texto1 {
+    font-size: small;
+    color: white;
+
+}
+
+.texto2 {
+    font-size: medium;
+    text-align: center;
+    color: white;
+}
+
+.carro {
+    border-radius: 50%;
+    width: 160px;
+    margin-left: 40px;
+    
+
+}
+
+.carrob{
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nome {
+    text-align: center;
+    color: white;
+}
+
+.linha {
+    background-color: white;
+    height: 2px;
+}
+
+.linha2 {
+    background-color: black;
+    height: 2px;
+    width: 500px;
+    
+}
+
+.topico {
+    text-align: center;
+    padding-top: 10px;
+    font-size: medium;
+}
+
+#alinhar {
+    display: inline-block;
+}
+
+.tenta {
+    display: flex;
+    justify-content: space-between left 10px;
+    row-gap: 20px;
+    justify-content: center;
+
+}
+.texto_principal2{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+.Educacao{
+    margin-top: 100px;
+}
